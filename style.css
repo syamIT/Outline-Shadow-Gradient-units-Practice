@@ -1,0 +1,73 @@
+#flag {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px dotted blue;
+    background: radial-gradient(rgb(174, 231, 52),rgb(222, 12, 12),rgb(76, 76, 210),rgb(205, 4, 224),black);
+    margin: 10px;
+}
+
+.flag-text{
+    position: relative;
+    top: 120px;
+    left: 80px;
+    color: antiquewhite;
+    text-shadow: 2px 2px 2px rgb(25, 21, 21);
+}
+
+#bmw {
+    width: 210px;
+    height: 200px;
+    border-radius: 50%;
+    border: 30px solid black;
+    outline: 10px groove rgb(60, 60, 241);
+    outline-offset: 10px;
+    background-image: conic-gradient(rgb(125, 155, 15) 0deg, rgb(124, 163, 17) 90deg, rgb(220, 28, 146) 90deg,
+            blue 180deg, rgb(185, 203, 18) 180deg, rgb(217, 43, 43) 270deg, rgb(49, 49, 227) 270deg, blue 360deg);
+    margin-left: 40px;
+    margin: 55px;
+}
+
+#bmw p {
+    font-weight: bolder;
+    font-size: xx-large;
+    padding-left: 13px;
+    padding-top: 50px;
+}
+
+.symb {
+    display: flex;
+
+}
+
+#linear {
+    width: 500px;
+    height: 300px;
+    border: 2px solid aqua;
+    box-shadow: 5px 5px 5px orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(orange,white,green);
+}
+#linear p{
+    color: rgb(147, 1, 205);
+    text-shadow: 5px 5px 2px rgb(10, 190, 226);
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+}
+h2{
+    margin-left: 30%;
+    color: rgb(12, 179, 12);
+    text-shadow: 2px 2px 2px greenyellow;
+}
+
+#linear{
+    position: relative;
+    left: 250px;
+    /* bottom: 50px; */
+    top: 20px;
+}
+
